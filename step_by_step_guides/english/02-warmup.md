@@ -148,8 +148,7 @@ Now, let's run the second, more complex job.
 3.  Click the **Logs** tab.
 4.  Inspect the **`stdout`** and **`stderr`** logs. Since this job builds a report, the logs may contain messages confirming the report's creation or its save location in the data lake.
 
-
-
+![Create Job](../../img/cde-job-log.jpg)
 ---
 
 ## 🏁 Summary
@@ -162,3 +161,5 @@ In this lab, you mastered the fundamental "upload, define, run, monitor" lifecyc
 2.  **Define Jobs:** Create two separate Spark job definitions, `simple-pyspark-sql` and `create-data-reports`, linking them to their respective scripts in your resource.
 3.  **Run Jobs:** Manually trigger runs for both jobs directly from the CDE UI.
 4.  **Monitor & Debug:** Track the real-time execution status of your jobs and inspect their logs to verify success and find their output.
+
+[def]: ../
