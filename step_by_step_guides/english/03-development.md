@@ -37,13 +37,15 @@ You will use the terminal in the IDE to run the CDE CLI commands for the labs. F
 
 Open CDE's configurations and apply your Workload Username and Jobs API URL. You can find your Jobs API URL in your Virtual Cluster's Details Page.
 
+**NOTE** Use the DEV Virtual Cluster Associated to your USER ONLY
+
 ![alt text](../../img/jobs-api-url-1.png)
 
 ![alt text](../../img/jobs-api-url-2.png)
 
 ![alt text](../../img/cli-configs-1.png)
 
-![alt text](../../img/cli-configs-2.png)
+![Config2](../../img/cli-configs-2a.png)
 
 Next, generate a CDP access token and edit your CDP credentials.
 
