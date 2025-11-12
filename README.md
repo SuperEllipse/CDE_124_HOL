@@ -10,7 +10,6 @@ In these Labs you will gain hands-on experience the Cloudera Data Engineering Se
 2. Prototype your Spark Application in a dedicated CDE DEV environment.
 3. Use git to back up your code and push it to a dedicated CDE PRD environment.
 4. Create an Airflow Pipeline to orchestrate multiple Spark Applications.
-5. Monitor your Spark Applications with CDP Observability and the CDP Data Catalog.
 
 ## About the Cloudera Data Engineering (CDE) Service
 
@@ -22,11 +21,11 @@ CDE allows you to create, manage, and schedule Apache Spark jobs without the ove
 
 Detailed instructions are provided in the [step_by_step_guides](https://github.com/pdefusco/CDE_124_HOL/tree/main/step_by_step_guides/english).
 
-* [Link to the English Guide](https://github.com/pdefusco/CDE_124_HOL/tree/main/step_by_step_guides/english)
-* [Enlace a la Guía en Español](https://github.com/pdefusco/CDE_124_HOL/tree/main/step_by_step_guides/espa%C3%B1ol)
-* [Lien vers le Guide en Français](https://github.com/pdefusco/CDE_124_HOL/tree/main/step_by_step_guides/fran%C3%A7ais)
-* [Link per la Guida in Italiano](https://github.com/pdefusco/CDE_124_HOL/tree/main/step_by_step_guides/italiano)
-* [Link para o Guia em Português](https://github.com/pdefusco/CDE_124_HOL/tree/main/step_by_step_guides/portugu%C3%AAs)
+* [Link to the English Guide](https://github.com/superellipse/CDE_124_HOL/tree/main/step_by_step_guides/english)
+* [Enlace a la Guía en Español](https://github.com/superellipse/CDE_124_HOL/tree/main/step_by_step_guides/espa%C3%B1ol)
+* [Lien vers le Guide en Français](https://github.com/superellipse/CDE_124_HOL/tree/main/step_by_step_guides/fran%C3%A7ais)
+* [Link per la Guida in Italiano](https://github.com/superellipse/CDE_124_HOL/tree/main/step_by_step_guides/italiano)
+* [Link para o Guia em Português](https://github.com/superellipse/CDE_124_HOL/tree/main/step_by_step_guides/portugu%C3%AAs)
 
 ## Setup Instructions
 

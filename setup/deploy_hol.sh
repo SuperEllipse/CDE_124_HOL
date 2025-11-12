@@ -38,7 +38,7 @@ function loading_icon_job() {
   trap "tput cnorm" EXIT
 
   while true; do
-    job_status=$(cde run list --filter 'job[like]%mkt-hol-setup-'$cde_user | jq -r '[last] | .[].status')
+    job_status=$(cde run list --filter "job[like]%mkt-hol-setup-"$cde_user | jq -r '[last] | .[].status')
     if [[ $job_status == "succeeded" ]]; then
       echo "Setup Job Execution Completed"
       break
