@@ -27,7 +27,7 @@ This lab is designed for a specific Cloudera workshop environment. Please use th
 * **Your User ID:**
     * Your instructor has assigned you a user ID from the range `user001` to `user030`.
 * **Workshop Password:**
-    * `X2uR6DLflfMwKopX`
+    * `PROVIDED BY INSTRUCTOR`
 
 ### 2. Find Your CDE Service
 
