@@ -13,12 +13,9 @@ We will prototype and test the Iceberg Merge Into and Incremental Read Operation
 
 #### Pull the Docker Container and Launch the IDE
 
-Clone the GitHub repository in your local machine.
+Login to Docker with your docker login name and password 
 
-```
-git clone https://github.com/pdefusco/CDE_124_HOL.git
-cd CDE_124_HOL
-```
+![docker Login](../../img/docker-login.jpg)
 
 Launch the Docker container.
 
