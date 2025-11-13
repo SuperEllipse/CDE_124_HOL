@@ -99,8 +99,9 @@ pip3 install pyspark-3.5.1.tar.gz
 Start a CDE Session of type Spark Connect. Edit the Session Name parameter so it doesn't collide with other users' sessions. You will be prompted for your Workload Password. This is the same password you used to log into CDP.
 
 ```
+##REMEMBER use your own User Name (e.g user001 )
 cde session create \
-  --name paul-hol-session \
+  --name userxx-hol-session \
   --type spark-connect \
   --num-executors 2 \
   --driver-cores 2 \

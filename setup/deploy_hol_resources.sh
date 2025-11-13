@@ -69,10 +69,11 @@ function loading_icon_env() {
 
 loading_icon_env "Python Env Build in Progress"
 
-e=$(date)
+e=$(date)`
 
 echo "##########################################################"
 printf "${fmt}" "CDE ${cde_demo} HOL deployment completed."
 printf "${fmt}" "completion time:" "${e}"
 printf "${fmt}" "please visit CDE Resources UI to validate resources."
 echo "##########################################################"
+  
