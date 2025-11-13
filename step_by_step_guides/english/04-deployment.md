@@ -173,14 +173,28 @@ In your editor, open the Airflow DAG "004_airflow_dag_git" and edit your usernam
 
 ![alt text](../../img/username-dag.png)
 
-Then create the CDE Airflow job. This job will orchestrate your Lakehouse Spark jobs above.
+Then create the CDE Airflow job. This job will orchestrate your Lakehouse Spark jobs above. 
 
 ```
-cde job create --name airflow-orchestration-user001 \
+# This will create a temporary resource and add the modified airflow for your to run
+
+
+cde resource create --name "airflow-files-user040" --type "files" \
+  --vcluster-endpoint https://bvtsz6rs.cde-sv4j7b5c.axb-cdp.zm98ll.a9.cloudera.site/dex/api/v1
+
+# This will upload  the modified airflow for your to run
+cde resource upload --name "airflow-files-user040" --local-path de-pipeline-bank/airflow/004_airflow_dag_git.py   --vcluster-endpoint https://bvtsz6rs.cde-sv4j7b5c.axb-cdp.zm98ll.a9.cloudera.site/dex/api/v1
+
+# This will create  the modified airflow for your to run
+cde job create --name airflow-orchestration-user040 \
   --type airflow \
-  --mount-1-resource sparkAppRepoPrdUser001 \
-  --dag-file de-pipeline-bank/airflow/004_airflow_dag_git.py\
-  --vcluster-endpoint <your-PRD-vc-jobs-api-url-here>
+  --mount-1-resource airflow-files-user040 \
+  --dag-file 004_airflow_dag_git.py\
+  --vcluster-endpoint https://bvtsz6rs.cde-sv4j7b5c.axb-cdp.zm98ll.a9.cloudera.site/dex/api/v1
+
+
+
+
 ```
 
 For example:
