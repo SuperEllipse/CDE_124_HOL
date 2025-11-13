@@ -37,12 +37,37 @@ You will use the terminal in the IDE to run the CDE CLI commands for the labs. F
 
 Open CDE's configurations and apply your Workload Username and Jobs API URL. You can find your Jobs API URL in your Virtual Cluster's Details Page.
 
+
+### Shortcuts for the Jobs API URL: 
+```
+**Users 1 to 15 **
+DEV1 Cluster : https://xl77nnrj.cde-sv4j7b5c.axb-cdp.zm98ll.a9.cloudera.site/dex/api/v1
+
+***Users 16 to 30 **
+DEV2 Cluster : https://2lr6v7w4.cde-sv4j7b5c.axb-cdp.zm98ll.a9.cloudera.site/dex/api/v1
+
+```
+
 **NOTE** Use the DEV Virtual Cluster Associated to your USER ONLY
 
 ![alt text](../../img/jobs-api-url-1.png)
 
 ![alt text](../../img/jobs-api-url-2.png)
 
+
+```
+**Shortcuts for editing the config files **
+
+# This will open the config.yaml
+vi ~/.cde/config.yaml 
+
+## Edit the config.yaml ( you do not need to  )
+<Esc>  a 
+
+# Save the config.yaml
+<Esc> w q !
+
+```
 ![alt text](../../img/cli-configs-1.png)
 
 ![Config2](../../img/cli-configs-2a.png)
