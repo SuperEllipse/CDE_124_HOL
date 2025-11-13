@@ -77,6 +77,12 @@ CTRL + P
 
 Next, generate a CDP access token and edit your CDP credentials.
 
+```
+**SHORT CUT**
+This has already been done for you. Please use the values provided in your manual or by the Instructor 
+
+```
+
 ![alt text](../../img/usr-mgt-1.png)
 
 ![alt text](../../img/usr-mgt-2.png)
@@ -99,9 +105,8 @@ pip3 install pyspark-3.5.1.tar.gz
 Start a CDE Session of type Spark Connect. Edit the Session Name parameter so it doesn't collide with other users' sessions. You will be prompted for your Workload Password. This is the same password you used to log into CDP.
 
 ```
-##REMEMBER use your own User Name (e.g user001 )
 cde session create \
-  --name userxx-hol-session \
+  --name paul-hol-session \
   --type spark-connect \
   --num-executors 2 \
   --driver-cores 2 \
