@@ -40,10 +40,10 @@ Open CDE's configurations and apply your Workload Username and Jobs API URL. You
 
 ### Shortcuts for the Jobs API URL: 
 ```
-**Users 1 to 15 **
+**Users 1 to 10 **
 DEV1 Cluster : https://xl77nnrj.cde-sv4j7b5c.axb-cdp.zm98ll.a9.cloudera.site/dex/api/v1
 
-***Users 16 to 30 **
+***Users 11 to 20 **
 DEV2 Cluster : https://2lr6v7w4.cde-sv4j7b5c.axb-cdp.zm98ll.a9.cloudera.site/dex/api/v1
 
 ```
@@ -167,8 +167,8 @@ spark = CDESparkConnectSession.builder.sessionName('<your-spark-connect-session-
 ```
 
 ```
-storageLocation = <your-storage-location-here>
-username = <your-cdp-workload-username-here>
+storageLocation = "s3a://axb-buk-e0fb10a3/data/cde-124-hol/bank/20251112"
+username = <your-cdp-workload-username-here> ( e.g. user040)
 ```
 
 ![alt text](../../img/runnotebook-1.png)
