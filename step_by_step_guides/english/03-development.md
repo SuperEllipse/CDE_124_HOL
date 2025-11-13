@@ -61,11 +61,14 @@ DEV2 Cluster : https://2lr6v7w4.cde-sv4j7b5c.axb-cdp.zm98ll.a9.cloudera.site/dex
 # This will open the config.yaml
 vi ~/.cde/config.yaml 
 
-## Edit the config.yaml ( you do not need to  )
-<Esc>  a 
-
+## Edit the config.yaml ( you do not need to to press + )
+<Esc> +  a 
+## Copy a line
+CTRL + C 
+## Paste a line
+CTRL + P
 # Save the config.yaml
-<Esc> w q !
+<Esc> + w + q !
 
 ```
 ![alt text](../../img/cli-configs-1.png)
