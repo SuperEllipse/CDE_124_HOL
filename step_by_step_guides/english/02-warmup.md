@@ -128,7 +128,7 @@ Now, let's run the second, more complex job.
 2.  Click **Create Job**.
 3.  Fill in the details for your report-building job:
     * **Job Type:** `Spark`
-    * **Name:** `create-data-reports`
+    * **Name:** `create-data-reports-userxx` ( user your user name here instead of xx)
     * **Application File:**
         * Click **Select...**
         * Choose the **`cde-warmup-scripts`** resource.
