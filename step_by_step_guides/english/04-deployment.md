@@ -100,7 +100,7 @@ cde job create --name cde_spark_job_bronze_user001 \
   --python-env-resource-name Python-Env-Shared \
   --executor-cores 2 \
   --executor-memory "4g" \
-  --application-file de-pipeline/spark/001_Lakehouse_Bronze.py\
+  --application-file de-pipeline-bank/spark/001_Lakehouse_Bronze.py\
   --vcluster-endpoint <your-PRD-vc-jobs-api-url-here>
 ```
 
@@ -112,7 +112,7 @@ cde job create --name cde_spark_job_silver_user001 \
   --python-env-resource-name Python-Env-Shared \
   --executor-cores 2 \
   --executor-memory "4g" \
-  --application-file de-pipeline/spark/002_Lakehouse_Silver.py\
+  --application-file de-pipeline-bank/spark/002_Lakehouse_Silver.py\
   --vcluster-endpoint <your-PRD-vc-jobs-api-url-here>
 ```
 
@@ -179,7 +179,7 @@ Then create the CDE Airflow job. This job will orchestrate your Lakehouse Spark 
 cde job create --name airflow-orchestration-user001 \
   --type airflow \
   --mount-1-resource sparkAppRepoPrdUser001 \
-  --dag-file de-pipeline/airflow/004_airflow_dag_git.py\
+  --dag-file de-pipeline-bank/airflow/004_airflow_dag_git.py\
   --vcluster-endpoint <your-PRD-vc-jobs-api-url-here>
 ```
 

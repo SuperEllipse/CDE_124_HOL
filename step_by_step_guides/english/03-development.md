@@ -63,10 +63,16 @@ vi ~/.cde/config.yaml
 
 ## Edit the config.yaml ( you do not need to to press + )
 <Esc> +  a 
+
+## Delete an entire line
+<Esc> + dd
+
 ## Copy a line
 CTRL + C 
+
 ## Paste a line
 CTRL + P
+
 # Save the config.yaml
 <Esc> + w + q !
 
@@ -91,6 +97,31 @@ This has already been done for you. Please use the values provided in your manua
 
 ![alt text](../../img/cdp-credentials.png)
 
+```
+**Shortcuts for editing the credentials files **
+
+# This will open the credentials
+vi ~/.cdp/credentials
+
+## Edit the config.yaml ( you do not need to to press + )
+<Esc> +  a 
+
+## Delete an entire line
+<Esc> + dd
+
+## Copy a line
+CTRL + C 
+
+## Paste a line
+CTRL + P
+
+# Save the credentials
+<Esc> + w + q !
+
+```
+
+![alt text](../../img/cdp-credentials-update.png)
+
 Finally, run the following commands to install the CDE Spark Connect tarballs.
 
 ```
@@ -102,7 +133,8 @@ pip3 install pyspark-3.5.1.tar.gz
 
 #### Launch a CDE Spark Connect Session
 
-Start a CDE Session of type Spark Connect. Edit the Session Name parameter so it doesn't collide with other users' sessions. You will be prompted for your Workload Password. This is the same password you used to log into CDP.
+Start a CDE Session of type Spark Connect.
+ **IMPORANT** Edit the Session Name parameter to user your user name to avoid conflicts with other users ( e.g. user040-hol-session). You will be prompted for your Workload Password. This is the same password you used to log into CDP.
 
 ```
 cde session create \
